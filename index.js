@@ -51,12 +51,10 @@ $(".box").on("click", function(){
             if(i==n-1){
                 level+=1;
                 console.log("input: "+input);
-                // $("h1").text("Level "+level);
-                // input=[];
                 waiter2();
             }
         }else{
-            $("h1").text("Level failed");
+            $("h1").text("Level failed!");
             wrong.play();
 
             break;
@@ -103,9 +101,6 @@ function waiter2(){
         $("h1").text("Level "+level);
         input=[];
     }, 1000);
-    // setTimeout(function(){
-    //     part1();
-    // }, 1000);
     part1();
     
 }
