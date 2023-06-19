@@ -1,0 +1,45 @@
+*{
+    background-color: #011f3f;
+    text-align: center;
+}
+
+h1{
+    color: #fef2bf;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    margin:  5%;
+}
+
+.box{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+    margin: 25px;
+
+}
+
+.one{
+    background-color: #008000;
+}
+.two{
+    background-color: #ff0000;
+}
+.three{
+    background-color: #ffff00;
+}
+.four{
+    background-color: #0000ff;
+}
+
+.container{
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.pressed{
+    box-shadow: 10px 0 red;
+    opacity: 0.5;
+}
